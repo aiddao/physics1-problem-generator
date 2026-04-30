@@ -24,9 +24,9 @@ class QuestionList {
     public:
         QuestionList();
         bool load_questions(const string& filename);
-        const vector<Question>& get_questions() const;
-        const vector<Question>& get_questions(int index) const;
-        void display_questions() const;
+        void get_questions() const;
+        void get_questions(int index) const;
+        void display_questions();
 };
 
 #endif
