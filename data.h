@@ -1,9 +1,12 @@
 #ifndef DATA_H
 #define DATA_H
 
+#include <fstream>
 #include <iostream>
+#include <sstream>
 #include <string>
 #include <vector>
+
 using namespace std;
 
 class Question {
