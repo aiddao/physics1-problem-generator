@@ -1,0 +1,19 @@
+[
+    {
+        "scenario": "A ball is thrown vertically upward with an initial velocity of `<VELOCITY>` m/s from the ground.",
+        "question": "What is the maximum height reached by the ball?",
+        "first_hint": "Use the kinematic equation for vertical motion.",
+        "second_hint": "The ball reaches its maximum height when its vertical velocity becomes zero."
+    },
+    {
+        "scenario": "A wheel of a car has a radius of `<RADIUS>` meters. The wheel rotates at `<SPEED>` revolutions per minute.",
+        "question": "What is the speed in meters per second at which the outer edge of the wheel is moving?",
+        "first_hint": "Use the relationship between angular and linear velocity.",
+        "second_hint": "Linear speed is the product of the radius and angular velocity."
+    },{
+        "scenario": "A car has a circular turn radius of r = 25 meters and the coefficient of static friction is `<FRICTION>`.",
+        "question": "What is the maximum speed the car can travel around the turn without sliding?",
+        "first_hint": "Use the relationship between centripetal force and friction.",
+        "second_hint": "The maximum speed is determined by the balance between the centripetal force required and the maximum frictional force available."
+    }
+]
